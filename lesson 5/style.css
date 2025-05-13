@@ -1,0 +1,109 @@
+h3{
+    font-family: arial;
+}
+.Tahoma{
+    font-family: tahoma;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.arial{
+    font-family: arial;
+}
+.arial p{
+    font-weight: bold;
+}
+.arial span{
+    font-style: italic;
+    color: orange;
+}
+
+.verdana{
+    font-family: Verdana;
+}
+
+.verdana span{
+    font-size: 14px;
+    color: gray;
+}
+
+.verdana button{
+    background-color: rgb(46, 164, 79);
+    padding: 10px ;
+    color: white;
+    font-size: 12px;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center; 
+}
+
+#arial{
+    font-family: arial;
+}
+
+
+#arial p{
+    font-weight: bold   ;
+}
+
+#arial span{
+    font-size: 12px;
+}
+
+.e{
+    font-style: arial;
+    text-align: center;
+}
+
+.e #new{
+    color: orange;
+    font-weight: bold;
+}
+.e #macbook{
+    font-weight: bold;
+}
+.e #super{
+    font-weight: bold;
+}
+.e #from{
+    font-size: 15px;
+}
+.e #buy{
+    border: none;
+    background-color: rgb(1, 146, 224);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px ;
+    padding-bottom: 7px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.f #nominal{
+    font-size: 30px;
+}
+.f #USD{
+    font-size: 17px;
+    color: gray;
+}
+.f #today{
+    color: green;
+    font-size: 15px;
+}
+.f #hours{
+    color: gray;
+    font-size: 14px;
+}
+.f #minus{
+    color: red;
+    font-size: 14px;
+}
+.g #abu{
+    color: gray;
+}
+.g #biru{
+    color: rgb(24, 197, 255);
+}
