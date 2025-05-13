@@ -1,0 +1,137 @@
+input {
+    width: 200px;
+    height: 20px;
+    display: block;
+    margin-top: 3px;
+}
+
+.teks{
+    display: inline-block;
+    vertical-align: middle;
+}
+.yes{
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    height: 30px;
+}
+.no{
+    display: inline-block;
+    vertical-align: middle;
+    width: 50px;
+    height: 30px;
+}
+.google{
+    width: 200px;
+    height: 125px;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+.cari{
+    padding: 10px;
+    width: 300px;
+    font-size: 16px;
+    vertical-align: middle;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); 
+    border: none;
+    border-radius: 25px;
+}
+   .form {
+      width: 300px;
+      padding: 20px;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      background-color: white;
+    }
+
+    .input-row {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 8px;
+    }
+
+    .form input {
+      flex: 1;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+
+    .full-width {
+      width: 93%;
+      margin-bottom: 10px;
+    }
+
+    .signup-btn {
+      width: 100%;
+      padding: 10px;
+      background-color: #1a73e8;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    .signup-btn:hover {
+      background-color: #0c5bd3;
+    }
+
+#First{
+    width: 60px;
+}
+#Last{
+    width: 60px;
+}
+
+.uber-form {
+    width: 320px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+    .uber-form h2 {
+      margin-bottom: 15px;
+}
+
+.uber-form input {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    background-color: rgba(226, 225, 225, 0.323);
+}
+
+.btn-row {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    flex: 1;
+    padding: 10px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.request-btn {
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.schedule-btn {
+    width: 2px ;
+    background-color: rgba(216, 216, 216, 0.499);
+    border: none;
+}
+
+.schedule-btn:hover {
+      background-color: #f2f2f2;
+}
