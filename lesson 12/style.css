@@ -1,0 +1,189 @@
+body{
+    font-family: Arial;
+}
+/* 12a */
+.container-a {
+    display: flex;
+}
+
+.box {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.box1 {
+    width: 200px;
+    background-color: lightblue;
+}
+
+.box2 {
+    width: 75px;
+    background-color: lightpink;
+}
+.container-b{
+    display: flex;
+}
+.box1b{
+    background-color: lightblue;
+    width: 50px;
+}
+.box2b{
+    background-color: lightpink;
+    width: 75px;
+}
+.box3b{
+    background-color: lightblue;
+    width: 50px;
+}
+.container-c{
+    display: flex;
+    width: 500px;
+    height: 20;
+    justify-content: space-between;
+}
+.container-c div{
+    width: 50px;
+    height: 20px;
+    background-color: lightpink;
+}
+.container-d{
+    display: flex;
+    height: 50px;
+    border: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-d div {
+    background-color: lightpink;   
+    height: 20px;
+}
+.notification-card {
+    border: 1px solid rgb(200, 200, 200);
+    border-radius: 10px;
+    width: 300px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label {
+    font-size: 18px;
+}
+
+.badge {
+    background-color: rgb(59, 89, 246);
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 6px 14px;
+    border-radius: 999px;
+}
+.container-f{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #7e57c2, #673ab7);
+    padding: 10px 20px;
+    width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
+}
+.Home {
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+.search {
+    flex-grow: 1;
+    margin: 0 20px;
+    border: none;
+    border-radius: 999px; 
+    outline: none;
+    font-size: 16px;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+
+}
+.download {
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.container-g {
+    width: 550px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* jarak antar card */
+}
+
+/* Kartu individual */
+.card {
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Flexbox horizontal untuk isi kartu */
+.horizontal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Gambar profil bulat */
+.profile-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Teks bagian tengah */
+.text-section {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+/* Teks nama */
+.teks1 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Teks deskripsi */
+.teks2 {
+    color: gray;
+    font-size: 14px;
+}
+
+/* Teks tambahan */
+.teks3 {
+    color: gray;
+    font-size: 14px;
+}
+
+/* Tombol Follow */
+.follow {
+    background-color: rgb(0, 166, 255);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 8px 14px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}

@@ -36,48 +36,41 @@ input {
     border: none;
     border-radius: 25px;
 }
-   .form {
-      width: 300px;
-      padding: 20px;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      background-color: white;
-    }
+.input-row {
+    width: 300px;
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+}
 
-    .input-row {
-        display: flex;
-        gap: 8px;
-        margin-bottom: 8px;
-    }
+.form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+}
 
-    .form input {
-      flex: 1;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      font-size: 14px;
-    }
+.full-width {
+    width: 277px;
+    margin-bottom: 10px;
+}
 
-    .full-width {
-      width: 93%;
-      margin-bottom: 10px;
-    }
+.signup-btn {
+    width: 300px;
+    padding: 15px;
+    background-color: #1a73e8;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 20px;
+}
 
-    .signup-btn {
-      width: 100%;
-      padding: 10px;
-      background-color: #1a73e8;
-      color: white;
-      font-weight: bold;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      font-size: 14px;
-    }
-
-    .signup-btn:hover {
-      background-color: #0c5bd3;
-    }
+.signup-btn:hover {
+    background-color: #0c5bd3;
+}
 
 #First{
     width: 60px;
