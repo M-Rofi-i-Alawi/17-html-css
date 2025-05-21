@@ -1,0 +1,397 @@
+body{
+    font-family: arial;
+}
+.container-a{
+    display: flex;
+}
+.satu {
+    background-color:lightpink;
+    color: white;
+    width: 100px;
+    height: 50px;
+    display: flex;             
+    justify-content: center; 
+    align-items: center;      
+}
+
+.satu p {
+    background-color: rgb(0, 0, 0);
+    margin: 0; 
+    padding: 0 5px;   
+}
+
+.dua{
+    background-color: lightblue;
+    width: 200px;
+    height: 50px;
+}
+/* 13b */
+.container-b {
+  display: flex;
+  width: 300px;
+}
+
+.pink {
+  background-color: lightpink;
+  width: 100px;
+  height: 50px;
+}
+
+.blue {
+  background-color: lightblue;
+  width: 200px;
+  height: 50px;
+  justify-content: space-between;
+}
+.row2{
+    text-align: left;
+    background-color: black;
+    width: 35px;
+    color: white;
+}
+.row3{
+    color: rgb(0, 0, 0);
+    text-align: right;
+
+}
+/* 13c */
+.kartu{
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+.header{
+    color: gray;
+    font-size: 12px;
+}
+.email-body{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+.kucing{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.email-teks{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1;
+}
+.atas-bawah{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+}
+.waktu{
+    font-family: helvetica;
+    color: gray;
+    font-size: 12px;
+}
+.subjek{
+    font-weight: bold;
+}
+.pesan{
+    color: gray;
+    font-size: 13px;
+}
+/* 13d */
+.kartu-d{
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    gap: 12px;
+}
+.header-d{
+    color: gray;
+    font-size: 12px;
+}
+.email-body-d{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+.kucing-d{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.email-teks-d{
+    gap: 4px;
+    flex: 1;
+}
+.atas-bawah-d{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+}
+.waktu-d{
+    font-family: helvetica;
+    color: gray;
+    font-size: 12px;
+}
+.subjek-d{
+    font-weight: bold;
+}
+.pesan-d{
+    color: gray;
+    font-size: 13px;
+}
+.kartu-d{
+    width: 400px;
+    background-color: white;
+    border-radius: 5px;
+    padding: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, Helvetica, sans-serif;
+    flex-direction: column;
+    gap: 12px;
+}
+.header-d{
+    color: gray;
+    font-size: 12px;
+}
+.email-body-d{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+}
+.kucing-d{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.email-teks-d{
+    gap: 4px;
+    flex: 1;
+}
+.atas-bawah-d{
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: bold;
+}
+.waktu-d{
+    font-family: helvetica;
+    color: gray;
+    font-size: 12px;
+}
+.subjek-d{
+    font-weight: bold;
+}
+.pesan-d{
+    color: gray;
+    font-size: 13px;
+}
+/* 13e */
+.kartu-e {
+  width: 400px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-e {
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 12px;
+}
+
+.email-body-e {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.kucing-e {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.email-teks-e {
+  flex: 1;
+}
+
+.atas-bawah-e {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.waktu-e {
+  font-family: Helvetica;
+  color: gray;
+  font-size: 12px;
+}
+
+.subjek-e {
+  font-weight: bold;
+}
+
+.pesan-e {
+  color: gray;
+  font-size: 13px;
+}
+/* 13f */
+.container-f{
+    border: 1px solid black;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    align-items: left;
+    padding: 10px;
+    gap: 10px;
+}
+.kucing-f{
+    object-fit: cover;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+.teks-konten{
+    display: flex;
+    padding-left: 10px;
+    flex-direction: column;
+}
+.teks-super{
+    font-weight: bold;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.user{
+    color: gray;
+}
+.info {
+    margin-top: 5px;
+}
+.youtube-box {
+  display: flex;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: #f9f9f9;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.thumbnail-youtube {
+  width: 120px;
+  height: auto;
+  object-fit: cover;
+}
+
+.youtube-teks {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.link-youtube {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.judul-youtube{
+    font-size: 14px;
+}
+/* 13g */
+.tweet {
+  width: 500px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+/* Flex utama: avatar + konten */
+.tweet-content {
+  display: flex;
+  gap: 10px;
+}
+
+/* Gambar profil */
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Flex vertikal untuk konten tweet */
+.tweet-details {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Flex horizontal: username dan handle */
+.user-info {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 5px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.handle {
+  color: gray;
+}
+
+.tweet-text {
+  margin-bottom: 10px;
+}
+
+/* Flex horizontal: thumbnail dan teks YouTube */
+.youtube-preview {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: #f9f9f9;
+}
+
+.youtube-thumb {
+  width: 120px;
+  height: auto;
+  object-fit: cover;
+}
+
+.youtube-text {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.youtube-link {
+  color: gray;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.youtube-title {
+  font-weight: bold;
+}
