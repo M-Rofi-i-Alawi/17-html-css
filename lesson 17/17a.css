@@ -1,0 +1,78 @@
+body {
+    height: 3000px; 
+    width: 2000px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.video-card {
+  width: 400px;
+  background-color: white;
+}
+
+.gambar {
+  width: 100%;
+  height: auto;
+}
+
+.video-thumbnail {
+  position: relative;
+  display: block;
+}
+
+.video-time {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 2px 6px;
+  font-size: 16px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.channel-info {
+  display: flex;
+  align-items: flex-start;
+  margin-top: 10px;
+}
+
+.channel-picture {
+  width: 60px;
+  border-radius: 50%;
+}
+
+.text-info {
+  margin-left: 12px;
+}
+
+.video-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.channel-name,
+.video-stats {
+  font-size: 18px;
+  color: gray;
+}
+
+/* RESPONSIVE TEKS KETIKA > 1000px */
+@media (min-width: 1000px) {
+  .video-title {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .channel-name,
+  .video-stats {
+    font-size: 14px;
+  }
+}
