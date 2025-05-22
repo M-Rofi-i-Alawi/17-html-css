@@ -1,0 +1,21 @@
+body{
+    height: 3000px;
+    font-family: arial;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar{
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    top: 0;
+}
+h1{
+    color: black;
+}

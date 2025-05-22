@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    height: 3000px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1000px;
+    top: 0;
+    left: 0;
+    display: flex;
+    position: fixed;
+    height: 300vh;
+}
+.profil{
+    background-color: rgb(21, 23, 43);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0;
+    width: 200px;
+}
+.profil img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px 0;
+}
+.info-profil{
+    background-color: rgb(32, 32, 44);
+    width: 1000px;
+    padding: 20px;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    margin-bottom: 30px;
+}
+.judul{
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.plus{
+    font-size: 70px;
+    margin-right: 20px;
+    text-align: center;
+}
+p{
+    margin: 10px 0;
+    margin-left: 20px;
+    font-size:35px;
+}
