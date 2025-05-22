@@ -1,0 +1,43 @@
+body{
+    height: 3000px;
+}
+.card {
+  position: relative;
+  display: inline-block;
+  border: 10px solid white;
+  margin: 10px;
+}
+
+.card img {
+  display: block;
+  width: 300px;
+}
+
+.discount {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.add-to-cart {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px;
+  font-size: 16px;
+  border-top: 1px solid #ccc;
+}
+
+.add-to-cart button {
+  background: none;
+  border: 1px solid black;
+  padding: 8px 16px;
+  cursor: pointer;
+}
